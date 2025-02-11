@@ -1,7 +1,3 @@
-Here’s the rephrased `README.md` file:  
-
----
-
 # Demonstrating OOP with **IoT System Control using IP Camera, Light Sensor, and Temperature Sensor**
 
 ## Overview  
@@ -37,7 +33,7 @@ This project demonstrates **Object-Oriented Programming (OOP)** principles by si
 1. **Clone the Repository**  
 
    ```bash  
-   git clone https://github.com/StackSree/c-charp-basics/OOPWithIOTDeviceSample.git  
+   git clone https://github.com/StackSree/c-charp-basics.git  
    ```  
 
 2. **Open the Project**  
@@ -107,6 +103,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **IoT Concepts**: Simulating real-world IoT interactions using OOP principles.  
 - **.NET Core**: Enabling cross-platform compatibility and performance efficiency.  
 
----
-
-This **README.md** serves as a structured guide to the IoT system, highlighting its functionality, implementation details, and future improvements. Let me know if you need further refinements! 🚀
