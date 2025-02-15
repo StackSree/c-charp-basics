@@ -6,7 +6,7 @@ internal class Program
     /*
 
         The initial memory and memory after deallocation will not necessarily be the same in the given code. Here’s why:
-        Why Doesn’t Memory Return to Initial Levels After GC?
+        Why doesn't Memory Return to Initial Levels After GC?
         Memory Fragmentation:
             The CLR heap can become fragmented, leading to memory not being immediately returned to the OS even after garbage collection.
         GC Overhead & Reserved Memory:
@@ -17,7 +17,7 @@ internal class Program
             Objects with finalizers (~DemoObject()) are first placed in the finalization queue, and only in the next GC cycle are they fully cleaned up.
     
      * Conclusion
-            GC does not immediately return memory to the OS, but it does clean up unreferenced objects.
+            GC doesn't immediately return memory to the OS, but it does clean up unreferenced objects.
             The heap may retain extra memory for performance reasons.
             To force memory release, multiple GC.Collect() calls can help, but OS-level behavior may still retain memory for future allocations.     
      */
