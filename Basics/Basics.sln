@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.GarbageCollectorDemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binding", "Binding\Binding.csproj", "{8E2A5BC8-D1F7-46F2-A78B-12052966BD41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainUsage", "AppDomainUsage\AppDomainUsage.csproj", "{61DCBC4B-9D79-4DC2-8736-2C82D763DDDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDomainUsage", "AppDomainUsage\AppDomainUsage.csproj", "{61DCBC4B-9D79-4DC2-8736-2C82D763DDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservedWordsAndDataTypes", "ReservedWordsAndDataTypes\ReservedWordsAndDataTypes.csproj", "{19C2608C-4F12-4A42-AA81-409984DA4654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{61DCBC4B-9D79-4DC2-8736-2C82D763DDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DCBC4B-9D79-4DC2-8736-2C82D763DDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DCBC4B-9D79-4DC2-8736-2C82D763DDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C2608C-4F12-4A42-AA81-409984DA4654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C2608C-4F12-4A42-AA81-409984DA4654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C2608C-4F12-4A42-AA81-409984DA4654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C2608C-4F12-4A42-AA81-409984DA4654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
