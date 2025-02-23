@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservedWordsAndDataTypes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionAndInheritanceDemo", "AbstractionAndInheritanceDemo\AbstractionAndInheritanceDemo.csproj", "{047A180A-01A1-42F1-ACE4-AB7BE7D2F5EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextualKeywordsDemo", "ContextualKeywordsDemo\ContextualKeywordsDemo.csproj", "{39EAB2A0-6265-436D-97D6-68EDA59A9072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{047A180A-01A1-42F1-ACE4-AB7BE7D2F5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{047A180A-01A1-42F1-ACE4-AB7BE7D2F5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{047A180A-01A1-42F1-ACE4-AB7BE7D2F5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EAB2A0-6265-436D-97D6-68EDA59A9072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EAB2A0-6265-436D-97D6-68EDA59A9072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EAB2A0-6265-436D-97D6-68EDA59A9072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EAB2A0-6265-436D-97D6-68EDA59A9072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
