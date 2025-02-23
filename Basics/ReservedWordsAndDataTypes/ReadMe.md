@@ -22,3 +22,9 @@ The program uses reflection to get information about built-in data types.  Howev
 
    ```bash
    csc ReservedWords.cs
+
+## Note
+If you really want to use an identifier that clashes with a reserved keyword, you can do so by qualifying it with the @ prefix. For instance:
+int using = 123; // Illegal
+int @using = 123; // Legal
+The @ symbol doesn’t form part of the identifier itself. So, @myVariable is the same as myVariable.
