@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionAndInheritanceDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextualKeywordsDemo", "ContextualKeywordsDemo\ContextualKeywordsDemo.csproj", "{39EAB2A0-6265-436D-97D6-68EDA59A9072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitManipulationDemo", "BitManipulationDemo\BitManipulationDemo.csproj", "{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitManipulationDemo", "BitManipulationDemo\BitManipulationDemo.csproj", "{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteralsPunctuatorsOperatorsDemo", "LiteralsPunctuatorsOperatorsDemo\LiteralsPunctuatorsOperatorsDemo.csproj", "{7F93BF19-33B1-40C6-887A-381028097787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F93BF19-33B1-40C6-887A-381028097787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F93BF19-33B1-40C6-887A-381028097787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F93BF19-33B1-40C6-887A-381028097787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F93BF19-33B1-40C6-887A-381028097787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
