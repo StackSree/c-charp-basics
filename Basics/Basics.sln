@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitManipulationDemo", "BitM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteralsPunctuatorsOperatorsDemo", "LiteralsPunctuatorsOperatorsDemo\LiteralsPunctuatorsOperatorsDemo.csproj", "{7F93BF19-33B1-40C6-887A-381028097787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMathDemo", "GenericMathDemo\GenericMathDemo.csproj", "{1CC511B7-4569-44C7-9509-C76F6846A730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7F93BF19-33B1-40C6-887A-381028097787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F93BF19-33B1-40C6-887A-381028097787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F93BF19-33B1-40C6-887A-381028097787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC511B7-4569-44C7-9509-C76F6846A730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC511B7-4569-44C7-9509-C76F6846A730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC511B7-4569-44C7-9509-C76F6846A730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC511B7-4569-44C7-9509-C76F6846A730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
