@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextualKeywordsDemo", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitManipulationDemo", "BitManipulationDemo\BitManipulationDemo.csproj", "{823BAEE7-8E10-41C7-A38C-B64FBFF02F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteralsPunctuatorsOperatorsDemo", "LiteralsPunctuatorsOperatorsDemo\LiteralsPunctuatorsOperatorsDemo.csproj", "{7F93BF19-33B1-40C6-887A-381028097787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteralsPunctuatorsOperatorsDemo", "LiteralsPunctuatorsOperatorsDemo\LiteralsPunctuatorsOperatorsDemo.csproj", "{7F93BF19-33B1-40C6-887A-381028097787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMathDemo", "GenericMathDemo\GenericMathDemo.csproj", "{1CC511B7-4569-44C7-9509-C76F6846A730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMathDemo", "GenericMathDemo\GenericMathDemo.csproj", "{1CC511B7-4569-44C7-9509-C76F6846A730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectionOverViewDemo", "GarbageCollectionOverViewDemo\GarbageCollectionOverViewDemo.csproj", "{52C2DC8E-B5DF-4C89-B0A5-93569283D819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollectionOverViewDemo", "GarbageCollectionOverViewDemo\GarbageCollectionOverViewDemo.csproj", "{52C2DC8E-B5DF-4C89-B0A5-93569283D819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstanceVsStaticDemo", "InstanceVsStaticDemo\InstanceVsStaticDemo.csproj", "{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{52C2DC8E-B5DF-4C89-B0A5-93569283D819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C2DC8E-B5DF-4C89-B0A5-93569283D819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C2DC8E-B5DF-4C89-B0A5-93569283D819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
