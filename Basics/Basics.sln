@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMathDemo", "GenericM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollectionOverViewDemo", "GarbageCollectionOverViewDemo\GarbageCollectionOverViewDemo.csproj", "{52C2DC8E-B5DF-4C89-B0A5-93569283D819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstanceVsStaticDemo", "InstanceVsStaticDemo\InstanceVsStaticDemo.csproj", "{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceVsStaticDemo", "InstanceVsStaticDemo\InstanceVsStaticDemo.csproj", "{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversionDemo", "TypeConversionDemo\TypeConversionDemo.csproj", "{13755ABB-B687-445B-AED1-14E54D9E4754}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13755ABB-B687-445B-AED1-14E54D9E4754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13755ABB-B687-445B-AED1-14E54D9E4754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13755ABB-B687-445B-AED1-14E54D9E4754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13755ABB-B687-445B-AED1-14E54D9E4754}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
