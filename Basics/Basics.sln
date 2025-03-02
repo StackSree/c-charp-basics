@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceVsStaticDemo", "Ins
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversionDemo", "TypeConversionDemo\TypeConversionDemo.csproj", "{13755ABB-B687-445B-AED1-14E54D9E4754}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypesVsReferenceTypesDemo", "ValueTypesVsReferenceTypesDemo\ValueTypesVsReferenceTypesDemo.csproj", "{B1FCA225-9F67-4974-A966-525073ECFC06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{13755ABB-B687-445B-AED1-14E54D9E4754}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13755ABB-B687-445B-AED1-14E54D9E4754}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13755ABB-B687-445B-AED1-14E54D9E4754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FCA225-9F67-4974-A966-525073ECFC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FCA225-9F67-4974-A966-525073ECFC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FCA225-9F67-4974-A966-525073ECFC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FCA225-9F67-4974-A966-525073ECFC06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
