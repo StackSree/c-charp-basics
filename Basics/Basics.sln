@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollectionOverViewDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceVsStaticDemo", "InstanceVsStaticDemo\InstanceVsStaticDemo.csproj", "{033BBDB6-74BB-4891-81F1-6B70F6DFAA26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversionDemo", "TypeConversionDemo\TypeConversionDemo.csproj", "{13755ABB-B687-445B-AED1-14E54D9E4754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversionDemo", "TypeConversionDemo\TypeConversionDemo.csproj", "{13755ABB-B687-445B-AED1-14E54D9E4754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypesVsReferenceTypesDemo", "ValueTypesVsReferenceTypesDemo\ValueTypesVsReferenceTypesDemo.csproj", "{B1FCA225-9F67-4974-A966-525073ECFC06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypesVsReferenceTypesDemo", "ValueTypesVsReferenceTypesDemo\ValueTypesVsReferenceTypesDemo.csproj", "{B1FCA225-9F67-4974-A966-525073ECFC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableReferenceTypesDemo", "NullableReferenceTypesDemo\NullableReferenceTypesDemo.csproj", "{ED5F2479-AA6E-401A-987E-C8DB84CB5011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{B1FCA225-9F67-4974-A966-525073ECFC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FCA225-9F67-4974-A966-525073ECFC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FCA225-9F67-4974-A966-525073ECFC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
