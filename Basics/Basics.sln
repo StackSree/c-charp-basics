@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversionDemo", "TypeC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypesVsReferenceTypesDemo", "ValueTypesVsReferenceTypesDemo\ValueTypesVsReferenceTypesDemo.csproj", "{B1FCA225-9F67-4974-A966-525073ECFC06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableReferenceTypesDemo", "NullableReferenceTypesDemo\NullableReferenceTypesDemo.csproj", "{ED5F2479-AA6E-401A-987E-C8DB84CB5011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableReferenceTypesDemo", "NullableReferenceTypesDemo\NullableReferenceTypesDemo.csproj", "{ED5F2479-AA6E-401A-987E-C8DB84CB5011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeTaxonomyDemo", "TypeTaxonomyDemo\TypeTaxonomyDemo.csproj", "{FC626CDD-7BB5-44C0-BCAB-7D910EF1890C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5F2479-AA6E-401A-987E-C8DB84CB5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC626CDD-7BB5-44C0-BCAB-7D910EF1890C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC626CDD-7BB5-44C0-BCAB-7D910EF1890C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC626CDD-7BB5-44C0-BCAB-7D910EF1890C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC626CDD-7BB5-44C0-BCAB-7D910EF1890C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
