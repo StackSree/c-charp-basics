@@ -1,4 +1,4 @@
-# Numeric Literals in C#
+# Numeric Suffixes in C#
 
 ## Overview
 This program demonstrates the use of numeric literals in C#, including integer, floating-point, hexadecimal, and binary literals. It also highlights potential pitfalls and errors when not using appropriate suffixes for different numeric types.
@@ -14,7 +14,7 @@ For instance, when working with currency values in a banking system, it is essen
 
 ## Code Explanation
 
-### Integer Literals
+### Integer Suffixes
 The program initializes different integer literals with appropriate suffixes:
 - `int`: Default integer type.
 - `uint`: Unsigned integer (useful when negative values are not needed).
