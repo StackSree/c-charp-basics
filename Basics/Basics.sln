@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericTypesDemo", "Numeric
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericLiteralsDemo", "NumericLiteralsDemo\NumericLiteralsDemo.csproj", "{36824AB2-4685-410F-B3C6-BB70DEB6D204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericSuffixesDemo", "NumericSuffixesDemo\NumericSuffixesDemo.csproj", "{1CAF4B91-F5A0-447F-B3DE-A39E1A67C384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericSuffixesDemo", "NumericSuffixesDemo\NumericSuffixesDemo.csproj", "{1CAF4B91-F5A0-447F-B3DE-A39E1A67C384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingPointConversions", "FloatingPointConversions\FloatingPointConversions.csproj", "{222423DF-E0FA-4093-B71A-8671EA7CFBB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{1CAF4B91-F5A0-447F-B3DE-A39E1A67C384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAF4B91-F5A0-447F-B3DE-A39E1A67C384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAF4B91-F5A0-447F-B3DE-A39E1A67C384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222423DF-E0FA-4093-B71A-8671EA7CFBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222423DF-E0FA-4093-B71A-8671EA7CFBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222423DF-E0FA-4093-B71A-8671EA7CFBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222423DF-E0FA-4093-B71A-8671EA7CFBB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
