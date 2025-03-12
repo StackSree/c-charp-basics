@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithmeticOperatorsDemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloatingPointDemo", "FloatingPointDemo\FloatingPointDemo.csproj", "{77EB4899-8214-4189-BA97-25256CBC7A6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalVsDouble", "DecimalVsDouble\DecimalVsDouble.csproj", "{027E77B2-2985-4B19-A43C-2CB82A99A24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalVsDouble", "DecimalVsDouble\DecimalVsDouble.csproj", "{027E77B2-2985-4B19-A43C-2CB82A99A24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingErrorsDemo", "RoundingErrorsDemo\RoundingErrorsDemo.csproj", "{FD2902A4-390B-4C45-AA3E-3A800DEAE31D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{027E77B2-2985-4B19-A43C-2CB82A99A24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027E77B2-2985-4B19-A43C-2CB82A99A24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027E77B2-2985-4B19-A43C-2CB82A99A24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2902A4-390B-4C45-AA3E-3A800DEAE31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2902A4-390B-4C45-AA3E-3A800DEAE31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2902A4-390B-4C45-AA3E-3A800DEAE31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2902A4-390B-4C45-AA3E-3A800DEAE31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
