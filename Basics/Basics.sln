@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanDemo", "BooleanDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscapeSequencesDemo", "EscapeSequencesDemo\EscapeSequencesDemo.csproj", "{E435FCF3-BE8E-4EBC-989D-8641ECD4C026}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharConversionsDemo", "CharConversionsDemo\CharConversionsDemo.csproj", "{673B2F20-A8CE-482D-BF5B-16CC3D2401C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{E435FCF3-BE8E-4EBC-989D-8641ECD4C026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E435FCF3-BE8E-4EBC-989D-8641ECD4C026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E435FCF3-BE8E-4EBC-989D-8641ECD4C026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673B2F20-A8CE-482D-BF5B-16CC3D2401C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673B2F20-A8CE-482D-BF5B-16CC3D2401C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673B2F20-A8CE-482D-BF5B-16CC3D2401C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673B2F20-A8CE-482D-BF5B-16CC3D2401C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
