@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringDemo", "StringDemo\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringDemo", "RawStringDemo\RawStringDemo.csproj", "{FC204225-8E82-4088-A4FA-C8C9DE2A39B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparisonDemo", "StringComparisonDemo\StringComparisonDemo.csproj", "{E4D1AD25-3435-4A49-8037-BF06BA931C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringComparisonDemo", "StringComparisonDemo\StringComparisonDemo.csproj", "{E4D1AD25-3435-4A49-8037-BF06BA931C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utf8StringsDemo", "Utf8StringsDemo\Utf8StringsDemo.csproj", "{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{E4D1AD25-3435-4A49-8037-BF06BA931C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4D1AD25-3435-4A49-8037-BF06BA931C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4D1AD25-3435-4A49-8037-BF06BA931C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
