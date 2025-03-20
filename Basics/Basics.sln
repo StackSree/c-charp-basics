@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringDemo", "RawStringD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringComparisonDemo", "StringComparisonDemo\StringComparisonDemo.csproj", "{E4D1AD25-3435-4A49-8037-BF06BA931C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utf8StringsDemo", "Utf8StringsDemo\Utf8StringsDemo.csproj", "{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utf8StringsDemo", "Utf8StringsDemo\Utf8StringsDemo.csproj", "{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{075403F4-AFED-487D-98EE-2E2EACD4352B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D8B013-1CF8-4825-B4A1-AA41FF311A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075403F4-AFED-487D-98EE-2E2EACD4352B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075403F4-AFED-487D-98EE-2E2EACD4352B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075403F4-AFED-487D-98EE-2E2EACD4352B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075403F4-AFED-487D-98EE-2E2EACD4352B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
