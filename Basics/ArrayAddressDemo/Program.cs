@@ -18,8 +18,10 @@ internal class Program
                 IntPtr address = (IntPtr)ptr;
                 Console.WriteLine($"pointer address{address}");
                 Console.WriteLine($"address{address.ToString()}");
-                // Or you can use the more specific pointer format
-                Console.WriteLine($"address in hexdeceimal {(long)ptr:X}"); //prints the address in hex
+                // Or you can use the more specific pointer format,//prints the address in hex
+                Console.WriteLine($"address in hexdeceimal {(long)ptr:X}");                
+                Console.WriteLine($"Pointer size: {IntPtr.Size * 8}-bit");
+
             }
         }
     }
