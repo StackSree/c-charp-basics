@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utf8StringsDemo", "Utf8Stri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{075403F4-AFED-487D-98EE-2E2EACD4352B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAddressDemo", "ArrayAddressDemo\ArrayAddressDemo.csproj", "{3BA2670A-9094-4FEE-9171-02160E95C043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayAddressDemo", "ArrayAddressDemo\ArrayAddressDemo.csproj", "{3BA2670A-9094-4FEE-9171-02160E95C043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableParameterDemo", "VariableParameterDemo\VariableParameterDemo.csproj", "{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{3BA2670A-9094-4FEE-9171-02160E95C043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA2670A-9094-4FEE-9171-02160E95C043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA2670A-9094-4FEE-9171-02160E95C043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
