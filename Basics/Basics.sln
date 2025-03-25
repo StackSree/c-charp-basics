@@ -75,11 +75,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysDemo", "ArraysDemo\Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayAddressDemo", "ArrayAddressDemo\ArrayAddressDemo.csproj", "{3BA2670A-9094-4FEE-9171-02160E95C043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableParameterDemo", "VariableParameterDemo\VariableParameterDemo.csproj", "{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableParameterDemo", "VariableParameterDemo\VariableParameterDemo.csproj", "{0F83BA0C-7F41-4C4F-BCE8-62CD7BFD1658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackHeapDemo", "StackHeapDemo\StackHeapDemo.csproj", "{A0D625DC-2DFE-43E0-A479-6A443A25FF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackHeapDemo", "StackHeapDemo\StackHeapDemo.csproj", "{A0D625DC-2DFE-43E0-A479-6A443A25FF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiniteAssignmentRuleDemo", "DefiniteAssignmentRuleDemo\DefiniteAssignmentRuleDemo.csproj", "{F16E18E2-7861-4CE1-8308-754DBA7D95B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiniteAssignmentRuleDemo", "DefiniteAssignmentRuleDemo\DefiniteAssignmentRuleDemo.csproj", "{F16E18E2-7861-4CE1-8308-754DBA7D95B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultValuesExample", "DefaultValuesExample\DefaultValuesExample.csproj", "{E355F40F-5AB7-4277-943F-65D0F7B7157C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{F16E18E2-7861-4CE1-8308-754DBA7D95B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16E18E2-7861-4CE1-8308-754DBA7D95B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16E18E2-7861-4CE1-8308-754DBA7D95B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E355F40F-5AB7-4277-943F-65D0F7B7157C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E355F40F-5AB7-4277-943F-65D0F7B7157C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E355F40F-5AB7-4277-943F-65D0F7B7157C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E355F40F-5AB7-4277-943F-65D0F7B7157C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
