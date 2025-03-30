@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefLocalsDemo", "RefLocalsD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnsDemo", "RefReturnsDemo\RefReturnsDemo.csproj", "{A66ACCCB-1CB0-461B-85BE-5269F02790E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedVariablesDemo", "ImplicitlyTypedVariablesDemo\ImplicitlyTypedVariablesDemo.csproj", "{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{A66ACCCB-1CB0-461B-85BE-5269F02790E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66ACCCB-1CB0-461B-85BE-5269F02790E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66ACCCB-1CB0-461B-85BE-5269F02790E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
