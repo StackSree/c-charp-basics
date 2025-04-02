@@ -87,15 +87,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodParametersDemo", "Met
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParametersandNamedArgumentsDemo", "OptionalParametersandNamedArgumentsDemo\OptionalParametersandNamedArgumentsDemo.csproj", "{AB0DB148-C8F5-4B41-8A6D-34DA4B3217AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefLocalsDemo", "RefLocalsDemo\RefLocalsDemo.csproj", "{6B48238B-2F19-4B71-A763-A1F40B09E234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefLocalsDemo", "RefLocalsDemo\RefLocalsDemo.csproj", "{6B48238B-2F19-4B71-A763-A1F40B09E234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnsDemo", "RefReturnsDemo\RefReturnsDemo.csproj", "{A66ACCCB-1CB0-461B-85BE-5269F02790E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefReturnsDemo", "RefReturnsDemo\RefReturnsDemo.csproj", "{A66ACCCB-1CB0-461B-85BE-5269F02790E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedVariablesDemo", "ImplicitlyTypedVariablesDemo\ImplicitlyTypedVariablesDemo.csproj", "{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitlyTypedVariablesDemo", "ImplicitlyTypedVariablesDemo\ImplicitlyTypedVariablesDemo.csproj", "{385E3E44-DEE3-4FBA-AA02-6C749D13DAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetTypedNewDemo", "TargetTypedNewDemo\TargetTypedNewDemo.csproj", "{3E31E647-D98C-4C1E-AA2F-B47F376386D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetTypedNewDemo", "TargetTypedNewDemo\TargetTypedNewDemo.csproj", "{3E31E647-D98C-4C1E-AA2F-B47F376386D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionAndOperatorsDemo", "ExpressionAndOperatorsDemo\ExpressionAndOperatorsDemo.csproj", "{98900E20-8B51-42DA-A784-B6468E302ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionAndOperatorsDemo", "ExpressionAndOperatorsDemo\ExpressionAndOperatorsDemo.csproj", "{98900E20-8B51-42DA-A784-B6468E302ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentDemo", "AssignmentDemo\AssignmentDemo.csproj", "{546E73DC-F35A-4E9D-BCBB-F350CAFF5FF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{98900E20-8B51-42DA-A784-B6468E302ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98900E20-8B51-42DA-A784-B6468E302ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98900E20-8B51-42DA-A784-B6468E302ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546E73DC-F35A-4E9D-BCBB-F350CAFF5FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546E73DC-F35A-4E9D-BCBB-F350CAFF5FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546E73DC-F35A-4E9D-BCBB-F350CAFF5FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546E73DC-F35A-4E9D-BCBB-F350CAFF5FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
