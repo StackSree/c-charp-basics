@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpStatementDemo", "JumpSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscellaneousStatementsDemo", "MiscellaneousStatementsDemo\MiscellaneousStatementsDemo.csproj", "{B3346A20-AD87-496C-8728-7A8E9B666B6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespacesDemo", "NamespacesDemo\NamespacesDemo.csproj", "{DDAEF311-94F6-4D2F-A9D1-204BF6A8B5F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{B3346A20-AD87-496C-8728-7A8E9B666B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3346A20-AD87-496C-8728-7A8E9B666B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3346A20-AD87-496C-8728-7A8E9B666B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAEF311-94F6-4D2F-A9D1-204BF6A8B5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAEF311-94F6-4D2F-A9D1-204BF6A8B5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAEF311-94F6-4D2F-A9D1-204BF6A8B5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAEF311-94F6-4D2F-A9D1-204BF6A8B5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
