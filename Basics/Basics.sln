@@ -127,15 +127,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsingDemo", "GlobalUs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitGlobalUsingDemo", "ImplicitGlobalUsingDemo\ImplicitGlobalUsingDemo.csproj", "{3EAB416B-1923-4BAE-9748-E0BABED0A95B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStaticDemo", "UsingStaticDemo\UsingStaticDemo.csproj", "{1F6DB1EB-001E-44E4-A606-FA9E973D0145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStaticDemo", "UsingStaticDemo\UsingStaticDemo.csproj", "{1F6DB1EB-001E-44E4-A606-FA9E973D0145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasAnyTypeDemo", "AliasAnyTypeDemo\AliasAnyTypeDemo.csproj", "{C8CC6EFA-407D-4DE9-ABCB-EAFF7979CD8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliasAnyTypeDemo", "AliasAnyTypeDemo\AliasAnyTypeDemo.csproj", "{C8CC6EFA-407D-4DE9-ABCB-EAFF7979CD8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternAssemblyAliasDemo", "ExternAssemblyAliasDemo\ExternAssemblyAliasDemo.csproj", "{AC0BE292-3C7B-4DA3-A5C2-434F32541CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternAssemblyAliasDemo", "ExternAssemblyAliasDemo\ExternAssemblyAliasDemo.csproj", "{AC0BE292-3C7B-4DA3-A5C2-434F32541CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridV1", "ExternAssemblyAliasDemo\Lib\GridV1\GridV1.csproj", "{AB86ADE2-74D8-42F6-9CED-E71417383E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridV1", "ExternAssemblyAliasDemo\Lib\GridV1\GridV1.csproj", "{AB86ADE2-74D8-42F6-9CED-E71417383E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridV2", "ExternAssemblyAliasDemo\Lib\GridV2\GridV2.csproj", "{C85E1FD9-F432-41DE-A42E-37F391E683DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridV2", "ExternAssemblyAliasDemo\Lib\GridV2\GridV2.csproj", "{C85E1FD9-F432-41DE-A42E-37F391E683DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassDemo", "SimpleClassDemo\SimpleClassDemo.csproj", "{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,10 @@ Global
 		{C85E1FD9-F432-41DE-A42E-37F391E683DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85E1FD9-F432-41DE-A42E-37F391E683DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85E1FD9-F432-41DE-A42E-37F391E683DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
