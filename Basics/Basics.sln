@@ -137,7 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridV1", "ExternAssemblyAli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridV2", "ExternAssemblyAliasDemo\Lib\GridV2\GridV2.csproj", "{C85E1FD9-F432-41DE-A42E-37F391E683DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassDemo", "SimpleClassDemo\SimpleClassDemo.csproj", "{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleClassDemo", "SimpleClassDemo\SimpleClassDemo.csproj", "{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassModifierDemo", "ClassModifierDemo\ClassModifierDemo.csproj", "{6CF2AFD1-1C9E-4228-A5BE-80EDBF44B319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A8732F-AA2F-4175-9DCB-D6079D8C90EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF2AFD1-1C9E-4228-A5BE-80EDBF44B319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF2AFD1-1C9E-4228-A5BE-80EDBF44B319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF2AFD1-1C9E-4228-A5BE-80EDBF44B319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF2AFD1-1C9E-4228-A5BE-80EDBF44B319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
