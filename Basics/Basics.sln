@@ -153,7 +153,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticClassDemo", "StaticCl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsafeClassDemo", "UnsafeClassDemo\UnsafeClassDemo.csproj", "{2C2AE377-81A7-4F5D-A43A-4C1DF2561291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldsModifierStaticDemo", "FieldsModifierStaticDemo\FieldsModifierStaticDemo.csproj", "{7E59B1F1-F430-4920-8CC5-2647F404A1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldsModifierStaticDemo", "FieldsModifierStaticDemo\FieldsModifierStaticDemo.csproj", "{7E59B1F1-F430-4920-8CC5-2647F404A1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{12D00A89-D636-4B75-A63D-B6E6CD80A654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -465,6 +467,10 @@ Global
 		{7E59B1F1-F430-4920-8CC5-2647F404A1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E59B1F1-F430-4920-8CC5-2647F404A1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E59B1F1-F430-4920-8CC5-2647F404A1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D00A89-D636-4B75-A63D-B6E6CD80A654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D00A89-D636-4B75-A63D-B6E6CD80A654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D00A89-D636-4B75-A63D-B6E6CD80A654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D00A89-D636-4B75-A63D-B6E6CD80A654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
