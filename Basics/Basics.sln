@@ -157,7 +157,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldsModifierStaticDemo", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{12D00A89-D636-4B75-A63D-B6E6CD80A654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceModifierNewkeywordDemo", "InheritanceModifierNewkeywordDemo\InheritanceModifierNewkeywordDemo.csproj", "{00DC11F1-6D8D-4C63-AC01-D7E0E249AFA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceModifierNewkeywordDemo", "InheritanceModifierNewkeywordDemo\InheritanceModifierNewkeywordDemo.csproj", "{00DC11F1-6D8D-4C63-AC01-D7E0E249AFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeDemo", "UnsafeDemo\UnsafeDemo.csproj", "{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +479,10 @@ Global
 		{00DC11F1-6D8D-4C63-AC01-D7E0E249AFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00DC11F1-6D8D-4C63-AC01-D7E0E249AFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00DC11F1-6D8D-4C63-AC01-D7E0E249AFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
