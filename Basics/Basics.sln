@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceModifierNewkeywo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeDemo", "UnsafeDemo\UnsafeDemo.csproj", "{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadonlyDemo", "ReadonlyDemo\ReadonlyDemo.csproj", "{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DA0CB4-1693-4A43-8DCE-2CE3D73EB5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
