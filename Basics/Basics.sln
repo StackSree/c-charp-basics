@@ -163,7 +163,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsafeDemo", "UnsafeDemo\Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyDemo", "ReadonlyDemo\ReadonlyDemo.csproj", "{EAA1FBA8-5CEA-44D1-836B-D1C830B1438A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolatileDemo", "VolatileDemo\VolatileDemo.csproj", "{331D5223-D3A1-42A4-9502-55EB11697C03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolatileDemo", "VolatileDemo\VolatileDemo.csproj", "{331D5223-D3A1-42A4-9502-55EB11697C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstantsDemo", "ConstantsDemo\ConstantsDemo.csproj", "{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{331D5223-D3A1-42A4-9502-55EB11697C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331D5223-D3A1-42A4-9502-55EB11697C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331D5223-D3A1-42A4-9502-55EB11697C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
