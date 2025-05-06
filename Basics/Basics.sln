@@ -165,7 +165,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyDemo", "ReadonlyDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolatileDemo", "VolatileDemo\VolatileDemo.csproj", "{331D5223-D3A1-42A4-9502-55EB11697C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstantsDemo", "ConstantsDemo\ConstantsDemo.csproj", "{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstantsDemo", "ConstantsDemo\ConstantsDemo.csproj", "{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodWithStaticModifierDemo", "MethodWithStaticModifierDemo\MethodWithStaticModifierDemo.csproj", "{87486021-61A9-47CE-9406-FD0B01696BA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +503,10 @@ Global
 		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87486021-61A9-47CE-9406-FD0B01696BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87486021-61A9-47CE-9406-FD0B01696BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87486021-61A9-47CE-9406-FD0B01696BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87486021-61A9-47CE-9406-FD0B01696BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
