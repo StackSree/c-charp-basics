@@ -167,7 +167,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolatileDemo", "VolatileDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstantsDemo", "ConstantsDemo\ConstantsDemo.csproj", "{DF930336-BDB1-4CEE-B9C6-1CA1DC1E38BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodWithStaticModifierDemo", "MethodWithStaticModifierDemo\MethodWithStaticModifierDemo.csproj", "{87486021-61A9-47CE-9406-FD0B01696BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodWithStaticModifierDemo", "MethodWithStaticModifierDemo\MethodWithStaticModifierDemo.csproj", "{87486021-61A9-47CE-9406-FD0B01696BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsWithAccessModifersDemo", "MethodsWithAccessModifersDemo\MethodsWithAccessModifersDemo.csproj", "{C9114DE8-DDA8-4635-BA1C-613C3AFED93C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{87486021-61A9-47CE-9406-FD0B01696BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87486021-61A9-47CE-9406-FD0B01696BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87486021-61A9-47CE-9406-FD0B01696BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9114DE8-DDA8-4635-BA1C-613C3AFED93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9114DE8-DDA8-4635-BA1C-613C3AFED93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9114DE8-DDA8-4635-BA1C-613C3AFED93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9114DE8-DDA8-4635-BA1C-613C3AFED93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
