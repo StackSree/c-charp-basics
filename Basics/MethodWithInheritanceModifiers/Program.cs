@@ -1,47 +1,78 @@
 ﻿namespace MethodWithInheritanceModifiers;
 
+using System;
+using System.Threading;
+
 internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("--- Simple IoT Temperature Monitoring Demo ---");
+        Console.WriteLine("--- IoT Sensor Inheritance Modifiers Demo ---");
 
-        // Initialize the simulated sensor and hub
-        TemperatureSensor sensor = new TemperatureSensor();
+        BaseSensor sensor = new AdvancedSensor();  // uses override
         CentralHub hub = new CentralHub(sensor);
-
-        // Start monitoring in a new thread to keep the main thread alive
         Thread monitoringThread = new Thread(hub.MonitorTemperature);
         monitoringThread.Start();
 
-        // Keep the main thread running (you might have other interactions here in a real app)
-        Console.WriteLine("Monitoring temperature... Press any key to exit.");
+        Console.WriteLine("Monitoring... Press any key to stop.");
         Console.ReadKey();
-
-        // Optionally, you could signal the monitoring thread to stop gracefully
-        // monitoringThread.Abort(); // Not recommended for clean shutdown in real apps
     }
 }
 
-// 1. Simulated Temperature Sensor
-public class TemperatureSensor
+// ======== ABSTRACT + VIRTUAL ========
+
+// Abstract class enforces GetTemperature() implementation
+public abstract class BaseSensor
 {
-    private Random random = new Random();
+    public abstract int GetTemperature();
+}
 
-    public int GetTemperature()
+// Virtual method that can be overridden
+public class TemperatureSensor : BaseSensor
+{
+    protected Random random = new Random();
+
+    public override int GetTemperature()
     {
-        // Simulate reading a temperature value (e.g., between 15 and 30 degrees Celsius)
-        return random.Next(15, 31);
+        int temp = random.Next(15, 31);
+        Console.WriteLine($"[TemperatureSensor] Raw Temp: {temp}");
+        return temp;
     }
 }
 
-// 2. Simulated Central Hub
+// ======== OVERRIDE + SEALED ========
+
+public class AdvancedSensor : TemperatureSensor
+{
+    // Override and seal: can't override this further
+    public sealed override int GetTemperature()
+    {
+        int temp = base.GetTemperature() + 1; // simulate adjustment
+        Console.WriteLine($"[AdvancedSensor] Calibrated Temp: {temp}");
+        return temp;
+    }
+}
+
+// ======== NEW (Method Hiding) ========
+
+public class FakeSensor : TemperatureSensor
+{
+    // Hides the base GetTemperature (not a true override)
+    public new int GetTemperature()
+    {
+        Console.WriteLine("[FakeSensor] Fake Temp: 99");
+        return 99;
+    }
+}
+
+// ======== MONITORING LOGIC ========
+
 public class CentralHub
 {
-    private TemperatureSensor sensor;
-    private const int TemperatureThreshold = 25;
+    private BaseSensor sensor;
+    private const int Threshold = 25;
 
-    public CentralHub(TemperatureSensor sensor)
+    public CentralHub(BaseSensor sensor)
     {
         this.sensor = sensor;
     }
@@ -50,22 +81,20 @@ public class CentralHub
     {
         while (true)
         {
-            int currentTemperature = sensor.GetTemperature();
-            Console.WriteLine($"Current Temperature: {currentTemperature}°C");
+            int temp = sensor.GetTemperature();
+            Console.WriteLine($"[CentralHub] Current Temp: {temp}°C");
 
-            if (currentTemperature > TemperatureThreshold)
+            if (temp > Threshold)
             {
-                TriggerAlert(currentTemperature);
+                TriggerAlert(temp);
             }
 
-            // Simulate reading data every 2 seconds
             Thread.Sleep(2000);
         }
     }
 
-    private void TriggerAlert(int temperature)
+    private void TriggerAlert(int temp)
     {
-        Console.WriteLine($"\n**ALERT! Temperature exceeded threshold ({TemperatureThreshold}°C). Current temperature: {temperature}°C **\n");
-        // In a real system, this could send an email, SMS, or trigger a notification.
+        Console.WriteLine($"\n** ALERT! Temp exceeded {Threshold}°C — Current: {temp}°C **\n");
     }
 }
