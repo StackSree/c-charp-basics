@@ -181,7 +181,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodWithExpressionBoided"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalMethodsDemo", "LocalMethodsDemo\LocalMethodsDemo.csproj", "{7EC6B246-E162-499D-B97C-640DDB622A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticLocalMethodsDemo", "StaticLocalMethodsDemo\StaticLocalMethodsDemo.csproj", "{7F142E2D-F46C-4114-B8BA-B6D353B5A6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLocalMethodsDemo", "StaticLocalMethodsDemo\StaticLocalMethodsDemo.csproj", "{7F142E2D-F46C-4114-B8BA-B6D353B5A6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloadDemo", "MethodOverloadDemo\MethodOverloadDemo.csproj", "{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -549,6 +551,10 @@ Global
 		{7F142E2D-F46C-4114-B8BA-B6D353B5A6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F142E2D-F46C-4114-B8BA-B6D353B5A6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F142E2D-F46C-4114-B8BA-B6D353B5A6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
