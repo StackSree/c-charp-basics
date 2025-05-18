@@ -185,7 +185,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLocalMethodsDemo", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverloadDemo", "MethodOverloadDemo\MethodOverloadDemo.csproj", "{96D7DBF6-84E3-4564-978E-55AC1CD13A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstanceConstructorsDemo", "InstanceConstructorsDemo\InstanceConstructorsDemo.csproj", "{B25CD0F0-5ECD-4E88-93E2-07E79D49138A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceConstructorsDemo", "InstanceConstructorsDemo\InstanceConstructorsDemo.csproj", "{B25CD0F0-5ECD-4E88-93E2-07E79D49138A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnstructorOerloadingDemo", "CnstructorOerloadingDemo\CnstructorOerloadingDemo.csproj", "{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -561,6 +563,10 @@ Global
 		{B25CD0F0-5ECD-4E88-93E2-07E79D49138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B25CD0F0-5ECD-4E88-93E2-07E79D49138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B25CD0F0-5ECD-4E88-93E2-07E79D49138A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
