@@ -189,7 +189,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceConstructorsDemo", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CnstructorOerloadingDemo", "CnstructorOerloadingDemo\CnstructorOerloadingDemo.csproj", "{E0A3BBFA-43C4-404C-883C-846A5BEF71F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitConstructorDemo", "ImplicitConstructorDemo\ImplicitConstructorDemo.csproj", "{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitConstructorDemo", "ImplicitConstructorDemo\ImplicitConstructorDemo.csproj", "{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInitializationDemo", "ConstructorInitializationDemo\ConstructorInitializationDemo.csproj", "{0D6F2A68-0C24-4995-B38E-5B1E2E106223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -573,6 +575,10 @@ Global
 		{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
