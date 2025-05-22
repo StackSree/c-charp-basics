@@ -191,7 +191,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CnstructorOerloadingDemo", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitConstructorDemo", "ImplicitConstructorDemo\ImplicitConstructorDemo.csproj", "{6AD337C9-F6A0-4213-AF08-08FA9C8E662D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInitializationDemo", "ConstructorInitializationDemo\ConstructorInitializationDemo.csproj", "{0D6F2A68-0C24-4995-B38E-5B1E2E106223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorInitializationDemo", "ConstructorInitializationDemo\ConstructorInitializationDemo.csproj", "{0D6F2A68-0C24-4995-B38E-5B1E2E106223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonPublicConstructorDemo", "NonPublicConstructorDemo\NonPublicConstructorDemo.csproj", "{DF656628-0D35-4690-816F-645AC528EDF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -579,6 +581,10 @@ Global
 		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6F2A68-0C24-4995-B38E-5B1E2E106223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF656628-0D35-4690-816F-645AC528EDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF656628-0D35-4690-816F-645AC528EDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF656628-0D35-4690-816F-645AC528EDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF656628-0D35-4690-816F-645AC528EDF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
