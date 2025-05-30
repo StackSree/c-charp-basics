@@ -201,7 +201,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectInitializweDemo", "Ob
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParametersvsObjectInitializersDemo", "OptionalParametersvsObjectInitializersDemo\OptionalParametersvsObjectInitializersDemo.csproj", "{94C9EAC8-8DC4-4252-84B9-4F449F5745A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesDemo", "PropertiesDemo\PropertiesDemo.csproj", "{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertiesDemo", "PropertiesDemo\PropertiesDemo.csproj", "{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyModifiersDemo", "PropertyModifiersDemo\PropertyModifiersDemo.csproj", "{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -609,6 +611,10 @@ Global
 		{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
