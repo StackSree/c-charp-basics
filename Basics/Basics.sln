@@ -203,7 +203,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParametersvsObjectI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertiesDemo", "PropertiesDemo\PropertiesDemo.csproj", "{D12D0167-71C1-4D7F-B157-FBB0F15AAEFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyModifiersDemo", "PropertyModifiersDemo\PropertyModifiersDemo.csproj", "{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyModifiersDemo", "PropertyModifiersDemo\PropertyModifiersDemo.csproj", "{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatedPropertyDemo", "CalculatedPropertyDemo\CalculatedPropertyDemo.csproj", "{5CECA2BA-856D-45BE-852E-00891CF7A3FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -615,6 +617,10 @@ Global
 		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953E5BBE-59CC-4AC4-BF3E-77FFBA8C2EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
