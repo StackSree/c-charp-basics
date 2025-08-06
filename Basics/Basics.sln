@@ -207,6 +207,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyModifiersDemo", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatedPropertyDemo", "CalculatedPropertyDemo\CalculatedPropertyDemo.csproj", "{5CECA2BA-856D-45BE-852E-00891CF7A3FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression-BodiedPropertyDemo", "Expression-BodiedPropertyDemo\Expression-BodiedPropertyDemo.csproj", "{E4A8AF7C-0F01-4FAB-974F-15F9DC1F3170}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +623,10 @@ Global
 		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CECA2BA-856D-45BE-852E-00891CF7A3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A8AF7C-0F01-4FAB-974F-15F9DC1F3170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A8AF7C-0F01-4FAB-974F-15F9DC1F3170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A8AF7C-0F01-4FAB-974F-15F9DC1F3170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A8AF7C-0F01-4FAB-974F-15F9DC1F3170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
